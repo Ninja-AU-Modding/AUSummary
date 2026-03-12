@@ -1,6 +1,6 @@
 # AUSUMMARY 📊
 ## ⚠️ IF YOU USE VERSION 1.1.1 UPDATE TO 1.2.1 ASAP⚠️
-### Read release notes if you're wondering why
+## Read release notes if you're wondering why
 
 **Advanced Statistics Logger and Viewer for Among Us (Town of Us Mod)**
 
