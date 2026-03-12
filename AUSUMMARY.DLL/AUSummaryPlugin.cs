@@ -1,4 +1,5 @@
 using System;
+using AUSUMMARY.Shared;
 using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Unity.IL2CPP;
@@ -11,7 +12,7 @@ namespace AUSUMMARY.DLL;
 /// <summary>
 /// Main plugin class for AUSUMMARY game logging system
 /// </summary>
-[BepInAutoPlugin("ausummary.mod", "AUSUMMARY - Game Logger")]
+[BepInAutoPlugin("ausummary.mod", "AUSUMMARY - Game Logger", AUSummaryConstants.Version)]
 [BepInProcess("Among Us.exe")]
 [BepInDependency(MiraApiPlugin.Id)]
 public partial class AUSummaryPlugin : BasePlugin, IMiraPlugin
